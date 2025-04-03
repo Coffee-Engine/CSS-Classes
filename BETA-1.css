@@ -134,7 +134,7 @@
 
 .window {} /* ? The windows for the editors, well windows. Contains the taskbar and window contents */
 .TaskBar {} /* ? The taskbar for a window */
-.closeButton {} /* ? Sort of misleading but it contains the buttons on the taskbar (dock, and close) */
+.closeButton {} /* ? Sort of misleading but it includes the buttons on the taskbar (dock, and close) */
 .windowTab {} /* ? tabs on windows */
 
 .logInfo {} /* ? An info class for the log window specifically */
