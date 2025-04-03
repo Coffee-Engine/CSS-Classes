@@ -19,6 +19,10 @@
     ? --error-text
 
     ? --accent
+
+   ! NOTE IF YOUR CSS BREAKS TYPE (or copy I don't discriminate) 
+   ! editor.HELP_MY_CSS_BROKE()
+   ! into your console to temporarily clear all custom CSS effects
 */
 
 .CUGI-PropertyHolder {} /* ? Holds Properties for CUGI */
