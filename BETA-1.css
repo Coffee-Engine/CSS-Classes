@@ -1,3 +1,26 @@
+/*
+    * Coffee has some global variables so here are the listed global css variables
+    ? --background-1
+    ? --background-2
+    ? --background-3
+    ? --background-4
+
+    ? --text-1
+    ? --text-2
+    ? --text-3
+
+    ? --link-1
+    ? --link-2
+    ? --link-3
+
+    ? --warn
+    ? --warn-text
+    ? --error
+    ? --error-text
+
+    ? --accent
+*/
+
 .CUGI-PropertyHolder {} /* ? Holds Properties for CUGI */
 .CUGI-SliderHolder {} /* ? Holds a slider and a number input */
 .CUGI-PropertyName {} /* ? The name of a CUGI property */
