@@ -1,0 +1,121 @@
+.CUGI-PropertyHolder {} /* ? Holds Properties for CUGI */
+.CUGI-SliderHolder {} /* ? Holds a slider and a number input */
+.CUGI-PropertyName {} /* ? The name of a CUGI property */
+
+.CUGI-Label {} /* ? The Label display for CUGI */
+.CUGI-Header {} /* ? The Header display for CUGI */
+.CUGI-Button {} /* ? Buttons instantiated with CUGI. for every other button see just "button" */
+.CUGI-Keybind {} /* ? An input that allows for keybinds to be set, inherits off "CUGI-button" */
+.CUGI-FileButton {} /* ? A button that brings up coffee's file selection menu */
+
+.CUGI-SubMenu {} /* ? A submenu for CUGI */
+
+.CUGI-Number {} /* ? A number input in CUGI */
+.CUGI-Float {} /* ? A number with decimals, will inherit from number inputs */
+.CUGI-Int {} /* ? A number without decimals, will inherit from number inputs */
+.CUGI-Slider {} /* ? A slider, typically next to a number input */
+
+.CUGI-Vec2 {} /* ? A vector with 2 inputs, contains 2 number inputs within */
+.CUGI-Vec3 {} /* ? A vector with 3 inputs, contains 3 number inputs within */
+.CUGI-Vec4 {} /* ? A vector with 4 inputs, contains 4 number inputs within */
+
+.CUGI-X {} /* ? The X (Left/Right) axis on a CUGI vector */
+.CUGI-Y {} /* ? The Y (Up/Down) axis on a CUGI vector */
+.CUGI-Z {} /* ? The Z (Forward/Backwards) axis on a CUGI vector */
+.CUGI-W {} /* ? The W axis on a CUGI vector */
+
+.CUGI-String {} /* ? A simple text input */
+.CUGI-Multiline {} /* ? A text input with multiple lines, inherits from String */
+
+.CUGI-Boolean {} /* ? A checkbox instantiated with CUGI (every checkbox in engine) */
+
+.CUGI-Dropdown {} /* ? A dropdown menu, <select> in html */
+
+.CUGI-Color {} /* ? A colour input, typically instantiated by CUGI */
+.CUGI-ColorTransparency {} /* ? Colour inputs with transparency, inherits off of the base color input */
+
+.CUGI-BroadcastContainer {} /* ? The main container for the broadcast menu in project settings */
+.CUGI-Broadcast {} /* ? The broadcast "shell" contains the name and removal button */
+.CUGI-BroadcastRemove {} /* ? The button that lets you remove a broadcast */
+.CUGI-BroadcastName {} /* ? The name of the broadcast, a simple <p> */
+
+.CUGI-BroadcastCreation-Container {} /* ? Holds controls for broadcast creation */
+.CUGI-BroadcastNameInput {} /* ? The Name input for broadcast creation */
+.CUGI-AddBroadcast {} /* ? The Button for broadcast creation */
+
+.CUGI-CollisionGroupContainer {} /* ? The main container for the collision group menu in project settings */
+.CUGI-CollisionGroup {} /* ? The "shell" for collision groups */
+.CUGI-CollisionGroupName {} /* ? The name for collision groups, another simple <p> */
+.CUGI-CollisionGroupRemove {} /* ? The deletion button for collision groups */
+
+.CUGI-CollisionGroupCreation-Container {} /* ? Holds controls for collision group creation */
+.CUGI-CollisionGroupNameInput {} /* ? The input for the collision group's name */
+.CUGI-CollisionGroupAdd {} /* ? The button to add te collision group */
+
+.CUGI-CollisionGroupMatrix-Container {} /* ? The container holding the collision matrix */
+.CUGI-CollisionMatrix {} /* ? The big grid of checkboxes for determining what collides with what */
+.CUGI-CollisionMatrixGroupName {} /* ? The name of the group for collision */
+.CUGI-CollisionMatrixGroupNameTop {} /* ? Names at the top of the grid */
+
+.CUGI-CollisionRightBorder {} /* ? Anything with a right border in the collision matrix */
+.CUGI-CollisionBottomBorder {} /* ? Anything with a bottom border in the collision matrix */
+
+.CUGI-CollisionGroupCheckboxContainer {} /* ? Holds the checkbox in the center of a collision grid square */
+.CUGI-CollisionGroupCheckbox {} /* ? The checkboxes in the collision matrix */
+
+.dropdown-menu-fill-down {} /* ? For coffee's built in right click popups */
+
+.CenterPanel {} /* ? A generic centered div for coffee engine, holds everything not in the editor */
+.innerBox {} /* ? The contents of a Center Panel */
+
+.centerText {} /* ? centered text */
+.leftText {} /* ? forces text to the left */
+.fullWidth {} /* ? literally just width:100% */
+.centerContents {} /* ? centered contents */
+.noCenterElements {} /* ? Just as the name says, removes any centering */
+.genericNonSelect {} /* ? unselectable text */
+
+.recentDisplay {} /* ? Holds the projectButton class, just recent projects */
+.projectInitButton {} /* ? The name is misleading, but this class contains the buttons on the home screen */
+.projectButton {} /* ? The big recently opened projects button has one variable with the name --childID */
+.disabledButton {} /* ? A button that is disabled in the non editor pages */
+
+.nameDiv {} /* ? Contains two (2) name boxes */
+.nameBox {} /* ? When creating a project this class is used to make the boxes that contain the author and project name */
+
+.fileDiv {} /* ? Contains what kind of project you are creating (file/folder) */
+.buttonDiv {} /* ? When creating a project this class is used to make the boxes that contain the author and project name */
+
+.contributorContainerDiv {} /* ? A grid div that holds contributors to the engine */
+.buttonDiv {} /* ? Contains the big old "CREATE PROJECT" button */
+
+.settingsSidebar {} /* ? The sidebar of the engine settings menu */
+.settingsPanel {} /* ? The container that holds the project settings in the project settings menu */
+
+.layoutDiv {} /* ? The div that shows up when selecting your layout on initial bootup (or when changing it to a new preset), its a button basically */
+.layoutImage {} /* ? The image within layoutDiv */
+
+@keyframes boot {} /* ? The animation for a center panel opening */
+@keyframes projectAdded {} /* ? The project adding animation */
+
+/* ! WARNING BEYOND HERE IS THE ACTUAL EDITOR PAGE ! */
+.dockAndDropdowns {} /* ? The parent element containing the dock div (bottom area), and the dropdown area (top area) for coffee engine. */
+.dropdownsTopbar {} /* ? The top bar in the coffee engine editor */
+
+.dockDefault {} /* ? The horizontal dock grid */
+.dockOverlay {} /* ? The overlayed dock grid for docking */
+
+.window {} /* ? The windows for the editors, well windows. Contains the taskbar and window contents */
+.TaskBar {} /* ? The taskbar for a window */
+.closeButton {} /* ? Sort of misleading but it contains the buttons on the taskbar (dock, and close) */
+.windowTab {} /* ? tabs on windows */
+
+.logInfo {} /* ? An info class for the log window specifically */
+.logWarn {} /* ? The warning element for log, inherits off logInfo */
+.logError {} /* ? The error element from the log, inherits off logInfo */
+.italicThing {} /* ? Makes text italic */
+
+.fileButton {} /* ? A file in project files, also has an [even="true"] variant */
+.fileFolder {} /* ? A folder in project files, also has an [collasped="true"] variant */
+
+@keyframes closeWindow {} /* ? The window close animation */
