@@ -154,3 +154,41 @@
 .fileFolder {} /* ? A folder in project files, also has an [collasped="true"] variant */
 
 @keyframes closeWindow {} /* ? The window close animation */
+
+/* ! ANOTHER WARNING HERE BE IDs */
+/* * The almost universal IDs */
+#centerPanel {}
+#goBack {}
+
+/* * Setup */
+#languages {}
+#layouts {}
+#scratched {}
+#caffinated {}
+#empty {}
+
+/* * Home */
+#newProject {}
+#loadFile {}
+#loadFolder {}
+#openCredits {}
+#openSettings {}
+#recentProjects {}
+
+/* * Settings */
+#sidebar {}
+#settingsPanel {}
+
+/* * Credits */
+#coffeeProgrammers {}
+#coffeePorters {}
+#coffeeTranslators {}
+#coffeeMakers {}
+
+/* * Editor */
+#coffeeEngineProjectDropdown {}
+#coffeeEngineWindowDropdown {}
+#coffeeEngineSceneDropdown {}
+#coffeeEngineRuntimeDropdown {}
+#coffeeEngineDock {}
+#coffeeEngineDockoverlay {}
