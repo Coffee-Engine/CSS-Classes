@@ -95,6 +95,14 @@
 .CenterPanel {} /* ? A generic centered div for coffee engine, holds everything not in the editor */
 .innerBox {} /* ? The contents of a Center Panel */
 
+/* * Different Variations of center panel no default config just there for your convience */
+.CenterPanel-Setup-Language {}
+.CenterPanel-Setup-Layout {}
+.CenterPanel-Home {}
+.CenterPanel-ProjectSetup {}
+.CenterPanel-Settings {}
+.CenterPanel-Credits {}
+
 .centerText {} /* ? centered text */
 .leftText {} /* ? forces text to the left */
 .fullWidth {} /* ? literally just width:100% */
