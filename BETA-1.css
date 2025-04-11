@@ -153,6 +153,9 @@
 .fileButton {} /* ? A file in project files, also has an [even="true"] variant */
 .fileFolder {} /* ? A folder in project files, also has an [collasped="true"] variant */
 
+.progressBar {} /* ? The progress bar in the extension wizard's background */
+.progressBar-inner {} /* ? The progress bar in the extension wizard's color */
+
 @keyframes closeWindow {} /* ? The window close animation */
 
 /* ! ANOTHER WARNING HERE BE IDs */
