@@ -90,6 +90,15 @@
 .CUGI-CollisionGroupCheckboxContainer {} /* ? Holds the checkbox in the center of a collision grid square */
 .CUGI-CollisionGroupCheckbox {} /* ? The checkboxes in the collision matrix */
 
+.CUGI-ExtensionContainer {} /* ? The general container for the extension list */
+.CUGI-Extension {} /* ? The outer shell for extension */
+.CUGI-ExtensionReload {} /* ? The reload button for extensions */
+.CUGI-ExtensionRemove {} /* ? The removal button for extensions */
+.CUGI-ExtensionContainer {} /* ? The outer shell for extensions */
+.CUGI-ExtensionDetail {} /* ? Holds details for the extension, two elements, name, then author and verison */
+.CUGI-ExtensionName {} /* ? The text within the detail */
+.CUGI-ExtensionAuthor {} /* ? The text within the detail, specficially author and version */
+
 .dropdown-menu-fill-down {} /* ? For coffee's built in right click popups */
 
 .CenterPanel {} /* ? A generic centered div for coffee engine, holds everything not in the editor */
